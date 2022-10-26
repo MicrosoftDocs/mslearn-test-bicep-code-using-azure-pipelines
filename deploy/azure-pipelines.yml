@@ -8,8 +8,8 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-- name: deploymentDefaultLocation
-  value: westus
+  - name: deploymentDefaultLocation
+    value: westus
 
 jobs:
 - job:
